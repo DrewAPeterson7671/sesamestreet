@@ -5,12 +5,14 @@ $('document').ready(function() {
     var name2 = $('input#name2').val();
     var color = $('input#color').val();
     var birthdate = $('input#birthdate').val();
+    var pet = $('select#pet').val();
 
     $('#name1Output').text(name1);
     $('#name2Output').text(name2);
     $('#colorOutput').text(color);
     $('#dateOutput').text(birthdate);
-    $('.show').removeClass('show')
+    $('#petOutput').text(pet);
+    $('.show').removeClass('show');
     event.preventDefault();
   });
 });
